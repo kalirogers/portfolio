@@ -1,0 +1,171 @@
+
+body {
+  background-color: #ffffff;
+  color: #666666;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Open Sans", Helvetica, Ariel, sans-serif;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #e08776;
+}
+
+h2 {
+  color: #61a19e;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-family: Helvetica, Ariel, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+a {
+  color: #e08776;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a66558;
+}
+
+
+
+.link-button {
+  border: 1px solid #61a19e;
+  padding: 10px 20px;
+  color: #e08776;
+  background-color: transparent;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+  width: 30%;
+  text-align: center;
+}
+
+.link-button:hover {
+  background-color: #61a19e;
+  color: white;
+}
+
+
+/* HEADER styles */
+header {
+  padding: 30px;
+  height: 60px;
+}
+
+.logo-container {
+  width: 50%;
+  float: left;
+}
+.logo {
+  width: 400px;
+}
+
+nav {
+  float: right;
+  width: 50%;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.nav li{
+  display: inline;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/*HERO IMAGE section style*/
+.hero-image {
+  background: #61a19e url("../images/hero-image.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.hero-text-container {
+  padding-top: 80px;
+}
+
+.hero-text-container span {
+  color: #e08776;
+}
+
+.hero-image h2 {
+  text-align: center;
+  font-family: 'Sofia', cursive;
+  color: #d9d9db;
+  font-size: 30px;
+}
+
+.hero-image h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 5px;
+  font-size: 45px;
+
+}
+
+
+/*ABOUT Section styles */
+.about {
+  clear: both;
+  background-color: #eeeeee;
+  padding: 30px;
+  height: 220px;
+}
+
+.thumbnail {
+  border-radius: 50%;
+  width: 170px;
+  float: left;
+  margin-right: 40px;
+}
+
+/*EXPERIENCE Section styles */
+.experience {
+  margin: 30px 50px;
+}
+
+/*SKILLS Section styles */
+.skills {
+  margin: 30px 50px;
+}
+
+.skill-item {
+  background-color: #61a19e;
+  color: white;
+  font-weight: bold;
+  display: inline;
+  padding:  10px 25px;
+  margin-right: 10px;
+}
+
+/*PROJECTS Section styles */
+.projects {
+  margin: 30px 50px;
+}
+
+.project-item {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin-right: 10px;
+  width: 28%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.project-item h2 {
+  padding-bottom: 10px;
+}
