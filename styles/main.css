@@ -13,12 +13,28 @@ body {
 }
 
 h1 {
-  color: #e08776;
+  color: #61a19e;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 5px;
+  font-size: 35px;
+}
+
+h1 span {
+  font-weight: bold;
 }
 
 h2 {
-  color: #61a19e;
+  color: #e08776;
   margin: 0;
+  font-size: 1.5em;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 8px;
 }
 
 p {
@@ -168,4 +184,18 @@ nav {
 
 .project-item h2 {
   padding-bottom: 10px;
+}
+
+/*WORK Section Styles*/
+.work-item {
+  text-align: center;
+  float: left;
+  width: 32%;
+  margin-bottom: 100px;
+}
+
+.work-item img {
+  width: auto;
+  height: 120px;
+  margin-bottom: 20px;
 }
