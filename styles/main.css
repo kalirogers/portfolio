@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-  width: 1200px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -17,8 +17,8 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-weight: normal;
-  margin-top: 5px;
   font-size: 35px;
+  padding: 20px;
 }
 
 h1 span {
@@ -149,6 +149,10 @@ nav {
   margin-right: 40px;
 }
 
+.personal-description {
+  line-height: 30px;
+}
+
 /*EXPERIENCE Section styles */
 .experience {
   margin: 30px 50px;
@@ -198,4 +202,10 @@ nav {
   width: auto;
   height: 120px;
   margin-bottom: 20px;
+}
+
+.work-item h2 {
+  color: #666666;
+  text-transform: uppercase;
+  font-size: 1em;
 }
