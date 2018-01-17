@@ -137,9 +137,9 @@ nav {
 /*ABOUT Section styles */
 .about {
   clear: both;
+  display: flex;
   background-color: #eeeeee;
   padding: 30px;
-  height: 220px;
 }
 
 .thumbnail {
@@ -151,25 +151,6 @@ nav {
 
 .personal-description {
   line-height: 30px;
-}
-
-/*EXPERIENCE Section styles */
-.experience {
-  margin: 30px 50px;
-}
-
-/*SKILLS Section styles */
-.skills {
-  margin: 30px 50px;
-}
-
-.skill-item {
-  background-color: #61a19e;
-  color: white;
-  font-weight: bold;
-  display: inline;
-  padding:  10px 25px;
-  margin-right: 10px;
 }
 
 /*PROJECTS Section styles */
@@ -191,11 +172,21 @@ nav {
 }
 
 /*WORK Section Styles*/
+.work {
+  display: flex;
+}
+
+.work-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
 .work-item {
   text-align: center;
-  float: left;
-  width: 32%;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
+  flex-basis: 30%;
+  padding: 10px;
 }
 
 .work-item img {
@@ -209,3 +200,71 @@ nav {
   text-transform: uppercase;
   font-size: 1em;
 }
+
+.print-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+.print-item {
+  text-align: center;
+  margin-bottom: 100px;
+  border: 1px solid grey;
+
+}
+
+/*SKILLS Section styles */
+.skills .wrapper {
+  display: flex;
+  margin: 30px 50px;
+}
+
+.skill-item {
+  background-color: #61a19e;
+  color: white;
+  font-weight: bold;
+  /*display: inline;*/
+  padding:  10px 25px;
+  margin-right: 10px;
+  width: 50%;
+}
+
+.skill-col {
+  width: 30%;
+}
+
+.experience-col {
+  width: 70%;
+}
+
+.resume-button {
+  border: 1px solid #e08776;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+}
+
+/*EXPERIENCE Section styles */
+.experience {
+  margin: 30px 50px;
+}
+
+/*@media only screen
+  and (min-device-width: 1200px) {
+    .work-item {
+      text-align: center;
+      margin-bottom: 100px;
+      flex-basis: 30%;
+      padding: 10px;
+      justify-content: space-between;
+    }
+  }
+*/
+@media only screen
+  and (min-device-width: 900px) {
+    .wrapper {
+      width: 90%;
+    }
+  }
